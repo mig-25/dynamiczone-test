@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pages_images",
+  "info": {
+    "name": "Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "caption": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

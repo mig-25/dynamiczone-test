@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "quoter": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
